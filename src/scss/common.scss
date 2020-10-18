@@ -2,6 +2,14 @@
   border: 3px solid red;
 }
 
+.text-massive{
+  font-size: 20vw;
+}
+
+.text-big{
+  font-size: 10vw;
+}
+
 .h-1\/2 {
   height: 50%;
 }
@@ -82,6 +90,16 @@
 
   &-white {
     border-top: 1px solid theme("colors.white");
+  }
+}
+
+.border-r {
+  &-black {
+    border-right: 1px solid theme("colors.black");
+  }
+
+  &-white {
+    border-right: 1px solid theme("colors.white");
   }
 }
 

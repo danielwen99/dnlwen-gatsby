@@ -41,6 +41,19 @@
 
 //
 
+@font-face {
+  font-family: "FK Grotesk Regular";
+  src: url("../assets/fonts/fk-grotesk-regular.eot");
+  src: url("../assets/fonts/fk-grotesk-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/fk-grotesk-regular.woff") format("woff"),
+    url("../assets/fonts/fk-grotesk-regular.ttf") format("truetype"),
+    url("../assets/fonts/fk-grotesk-regular.svg#fkGroteskRegular") format("svg");
+  font-display: block;
+  font-weight: normal;
+  font-style: normal;
+}
+
 em,
 .em {
   font-style: italic;
@@ -147,7 +160,7 @@ strong,
 //
 
 @mixin b1 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "FK Grotesk Regular", Helvetica, Arial, sans-serif;
 
   font-size: 16px;
   line-height: 24px;
@@ -160,7 +173,7 @@ strong,
 //
 
 @mixin b2 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "FK Grotesk Regular", Helvetica, Arial, sans-serif;
 
   font-size: 14px;
   line-height: 18px;

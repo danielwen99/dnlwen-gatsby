@@ -2,6 +2,7 @@
 
 import React, { useContext } from "react";
 import { Link } from "gatsby";
+import scrollTo from "gatsby-plugin-smoothscroll";
 import { AppContext } from "~context/AppContext";
 
 const Header = () => {
@@ -15,23 +16,35 @@ const Header = () => {
     <header
       className={`header ${
         menuActive ? ` menu-active` : ``
-      } transition-transform w-full fixed top-0 right-0 left-0 z-30 py-2`}
+      } transition-transform w-full fixed top-0 right-0 left-0 z-30 py-2 animation-delay-4 animation-appear-slow`}
     >
-      <nav className="grid">
-        <div className="grid-end-12 flex items-center justify-between">
+      <nav className="grid text-white">
+        <div className="grid-end-12 flex items-end justify-between">
           <button
+            onClick={() => scrollTo(`#top`)}
             type="button"
-            className="header__menu w-5 h-3 relative flex flex-col items-center justify-between"
-            onClick={toggleMenu}
+            className="block"
           >
-            <div className="header__menu__line transition-opacity-transform w-full border-b-2 border-black"></div>
-            <div className="header__menu__line transition-opacity-transform w-full border-b-2 border-black"></div>
-            <div className="header__menu__line transition-opacity-transform w-full border-b-2 border-black"></div>
+            <h2 className="f4 ">DNLWEN.</h2>
           </button>
 
-          <Link to="/" className="block text-black">
-            <h2 className="b1">Site Name</h2>
-          </Link>
+          <div className="flex">
+            <button
+              onClick={() => scrollTo(`#about`)}
+              type="button"
+              className="block"
+            >
+              <h2 className="b1 uppercase">/about</h2>
+            </button>
+
+            <button
+              onClick={() => scrollTo(`#projects`)}
+              type="button"
+              className="block ml-5"
+            >
+              <h2 className="b1 uppercase">/projects</h2>
+            </button>
+          </div>
         </div>
       </nav>
     </header>
