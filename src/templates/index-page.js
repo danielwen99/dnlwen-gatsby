@@ -116,7 +116,7 @@ const IndexPage = ({ data, location }) => {
 
               <Fade>
                 <div className="w-1/2 sm:w-full flex justify-center items-center">
-                  <figure className="w-2/3 p-10 sm:p-2">
+                  <figure className="w-2/3 p-10 sm:p-2 sm:-mt-5">
                     <video
                       poster="/uploads/pocketposter.png"
                       src="/uploads/pocketVid.mp4"
@@ -133,7 +133,7 @@ const IndexPage = ({ data, location }) => {
             <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
               <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
                 <Fade>
-                  <figure className="w-2/3 p-10 sm:p-2">
+                  <figure className="w-2/3 p-10 sm:p-2 sm:-mt-5">
                     <Img
                       fluid={frontmatter.puppyloveImage.childImageSharp.fluid}
                       alt="test"
@@ -188,7 +188,7 @@ const IndexPage = ({ data, location }) => {
                   </ul>
                 </div>
                 <div className="w-1/2 sm:w-full flex justify-center items-center">
-                  <figure className="w-2/3 p-10 sm:p-2">
+                  <figure className="w-2/3 p-10 sm:p-2 sm:-mt-5">
                     <img src="/uploads/magicstripled.gif" alt="test"></img>
                   </figure>
                 </div>
@@ -199,7 +199,7 @@ const IndexPage = ({ data, location }) => {
               <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
                 <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
                   <Fade>
-                    <figure className="w-2/3  p-10 sm:p-2">
+                    <figure className="w-2/3  p-10 sm:p-2 sm:-mt-5">
                       <Img
                         fluid={frontmatter.gxeImage.childImageSharp.fluid}
                         alt="test"
