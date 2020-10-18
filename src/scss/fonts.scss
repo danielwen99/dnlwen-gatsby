@@ -100,7 +100,7 @@ strong,
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
 
-  font-size: 70px;
+  font-size: 65px;
   line-height: 72px;
   letter-spacing: -0.02em;
 }
@@ -169,6 +169,11 @@ strong,
 
   font-size: 16px;
   line-height: 24px;
+
+  @include sm {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 .b1 {

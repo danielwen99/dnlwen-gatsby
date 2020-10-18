@@ -62,7 +62,7 @@ const IndexPage = ({ data, location }) => {
 
             <h1 className="f2 text-white">
               Daniel is a multidisciplinary s̶o̶f̶t̶w̶a̶r̶e̶ ̶e̶n̶g̶i̶n̶e̶e̶r specialising in
-              front-end web developtment and digital business strategy.
+              front-end web developtment and online business strategy.
             </h1>
 
             <button
@@ -83,16 +83,27 @@ const IndexPage = ({ data, location }) => {
               id="projects"
             >
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white">
-                <h1 className="text-white f3 uppercase sm:pb-2">Pocket</h1>
-                <p className="text-white w-2/3 py-10 sm:px-0 sm:py-5 px-5 text-center b1">
-                  → Winner of the 2019 Accenture Banking Revolution Hackathon.
-                  <br />
-                  → Pocket is an banking interface which allows users to take
-                  control of their finances.
-                  <br />→ Callaborators: Wil Johnston, Sebastien Bailouni,
-                  Jonathon Vrankul
-                </p>
+                <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center mb-3">
+                  Pocket
+                </h1>
+
+                <ul className="w-2/3 p-5 sm:w-full sm:px-4">
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    Winner of the 2019 Accenture Banking Revolution Hackathon.
+                  </li>
+
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    Pocket is an banking interface which allows users to take
+                    control of their finances.
+                  </li>
+
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    Callaborators: Wil Johnston, Sebastien Bailouni, Jonathon
+                    Vrankul
+                  </li>
+                </ul>
               </div>
+
               <div className="w-1/2 sm:w-full flex justify-center items-center">
                 <figure className="w-2/3 p-10 sm:p-2">
                   <video
@@ -118,28 +129,46 @@ const IndexPage = ({ data, location }) => {
               </div>
 
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
-                <h1 className="text-white f3 uppercase sm:pb-2">
+                <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
                   Puppy Love Pet Care
                 </h1>
-                <p className="text-white w-2/3 py-10 sm:px-0 sm:py-5 px-5 text-center b1">
-                  → Website design. <br />
-                  → Full stack website developtment. <br />
-                  → Google myBusiness consultation. <br />→ Built using HTML,
-                  CSS, JS, Netlify.
-                </p>
+
+                <ul className="w-2/3 p-5 sm:w-full sm:px-4">
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    Website design.
+                  </li>
+
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    Full stack website developtment.
+                  </li>
+
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    Google myBusiness consultation.
+                  </li>
+
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    Built using HTML, CSS, JS, Netlify.
+                  </li>
+                </ul>
               </div>
             </article>
 
             <article className="w-screen h-screen flex sm:flex-col justify-evenly">
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white">
-                <h1 className="text-white f3 uppercase sm:pb-2">
+                <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
                   Magic Strip LED Lights
                 </h1>
-                <p className="text-white w-2/3 py-10 sm:px-0 sm:py-5 px-5 text-center b1">
-                  → Magic Strip LED is a global e-commerce dropshipping store
-                  specialising in quality strip led lights.
-                  <br />→ Built using shopify CMS.
-                </p>
+
+                <ul className="w-2/3 p-5 sm:w-full sm:px-4">
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    Magic Strip LED is a global e-commerce dropshipping store
+                    specialising in quality strip led lights.
+                  </li>
+
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    Built using shopify CMS.
+                  </li>
+                </ul>
               </div>
               <div className="w-1/2 sm:w-full flex justify-center items-center">
                 <figure className="w-2/3 p-10 sm:p-2">
@@ -159,13 +188,19 @@ const IndexPage = ({ data, location }) => {
               </div>
 
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
-                <h1 className="text-white f3 uppercase sm:pb-2">
+                <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
                   goodXevening
                 </h1>
-                <p className="text-white w-2/3 py-10 sm:px-0 sm:py-5 px-5 text-center b1">
-                  → goodXEvening is a travel photography blog. <br />→ Images
-                  hosted on online web application Tumblr.
-                </p>
+
+                <ul className="w-2/3 p-5 sm:w-full sm:px-4">
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    goodXEvening is an online travel photography blog.
+                  </li>
+
+                  <li className="text-white b1 border-b-white w-full py-2 px-1">
+                    All images are hosted on the online web application, Tumblr.
+                  </li>
+                </ul>
               </div>
             </article>
           </div>
