@@ -90,8 +90,8 @@ module.exports = {
     );
   },
   siteMetadata: {
-    title: `Daniel Wen Digital Portfolio`,
-    titleTemplate: `Daniel Wen Digital Portfolio`,
+    title: `Daniel Wen | Portfolio`,
+    titleTemplate: `Daniel Wen | Portfolio`,
     description: `Oh hey, nice of you to be checking out my portfolio..`,
     keywords: `change,these,to,something,else`,
     author: `danielcourtness@gmail.com`,
