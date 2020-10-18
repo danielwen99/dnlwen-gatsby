@@ -77,22 +77,23 @@ const IndexPage = ({ data, location }) => {
           <div className="flex flex-col w-full justify-center items-center">
             <h1 className="text-white f4 uppercase"> Featured Projects</h1>
 
-            <article className="mt-10 w-screen h-screen flex" id="projects">
-              <div className="w-1/2 flex flex-col items-center justify-center border-r-white">
+            <article
+              className="mt-10 w-screen h-screen flex sm:flex-col justify-evenly"
+              id="projects"
+            >
+              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white">
                 <h1 className="text-white f3 uppercase">Pocket</h1>
                 <p className="text-white w-2/3 py-10 px-5 text-center b1">
-                  → Winner of the 2019 Accenture Banking Revolution Hackathon
+                  → Winner of the 2019 Accenture Banking Revolution Hackathon.
                   <br />
-                  → Pocket allows users to take control of their finances by
-                  restricting spending accounts based on predefined categories.
-                  <br />
-                  → ReactNative application built over 24 hours
+                  → Pocket is an banking interface which allows users to take
+                  control of their finances.
                   <br />→ Callaborators: Wil Johnston, Sebastien Bailouni,
                   Jonathon Vrankul
                 </p>
               </div>
-              <div className="w-1/2 flex justify-center items-center">
-                <figure className="w-2/3 p-10 ">
+              <div className="w-1/2 sm:w-full flex justify-center items-center">
+                <figure className="w-2/3 sm:w-1/2 p-10 sm:p-1">
                   <video
                     src="/uploads/pocketVid.mp4"
                     controls
@@ -104,9 +105,9 @@ const IndexPage = ({ data, location }) => {
               </div>
             </article>
 
-            <article className="w-screen h-screen flex">
-              <div className="w-1/2 flex justify-center items-center border-r-white">
-                <figure className="w-2/3 p-10 ">
+            <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
+              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white">
+                <figure className="w-2/3 sm:w-1/2 p-10 sm:p-1">
                   <Img
                     fluid={frontmatter.puppyloveImage.childImageSharp.fluid}
                     alt="test"
@@ -114,37 +115,38 @@ const IndexPage = ({ data, location }) => {
                 </figure>
               </div>
 
-              <div className="w-1/2 flex flex-col items-center justify-center">
+              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
                 <h1 className="text-white f3 uppercase">Puppy Love Pet Care</h1>
                 <p className="text-white w-2/3 py-10 px-5 text-center b1">
-                  → Full stack website for local dog groomers.
-                  <br />→ Google myBusiness consultation
-                  <br />→ Built using HTML, CSS, JS, Netlify
+                  → Website design. <br />
+                  → Full stack website developtment. <br />
+                  → Google myBusiness consultation. <br />→ Built using HTML,
+                  CSS, JS, Netlify.
                 </p>
               </div>
             </article>
 
-            <article className="w-screen h-screen flex">
-              <div className="w-1/2 flex flex-col items-center justify-center border-r-white">
+            <article className="w-screen h-screen flex sm:flex-col justify-evenly">
+              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white">
                 <h1 className="text-white f3 uppercase">
                   Magic Strip LED Lights
                 </h1>
                 <p className="text-white w-2/3 py-10 px-5 text-center b1">
-                  → Global e-commerce dropshipping store selling LED Strip
-                  Lights
-                  <br />→ Built using shopify CMS
+                  → Magic Strip LED is a global e-commerce dropshipping store
+                  specialising in quality strip led lights.
+                  <br />→ Built using shopify CMS.
                 </p>
               </div>
-              <div className="w-1/2 flex justify-center items-center">
-                <figure className="w-2/3 p-10 ">
+              <div className="w-1/2 sm:w-full flex justify-center items-center">
+                <figure className="w-2/3 sm:w-1/2 p-10 sm:p-1">
                   <img src="/uploads/magicstripled.gif" alt="test"></img>
                 </figure>
               </div>
             </article>
 
-            <article className="w-screen h-screen flex">
-              <div className="w-1/2 flex justify-center items-center border-r-white">
-                <figure className="w-2/3 p-10 ">
+            <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
+              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white">
+                <figure className="w-2/3 sm:w-1/2 p-10 sm:p-1">
                   <Img
                     fluid={frontmatter.gxeImage.childImageSharp.fluid}
                     alt="test"
@@ -152,10 +154,11 @@ const IndexPage = ({ data, location }) => {
                 </figure>
               </div>
 
-              <div className="w-1/2 flex flex-col items-center justify-center">
+              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
                 <h1 className="text-white f3 uppercase">goodXevening</h1>
                 <p className="text-white w-2/3 py-10 px-5 text-center b1">
-                  → Travel photography blog <br />→ Tumblr web app hosting
+                  → goodXEvening is a travel photography blog. <br />→ Images
+                  hosted on online web application Tumblr.
                 </p>
               </div>
             </article>
