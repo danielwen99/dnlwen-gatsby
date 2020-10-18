@@ -83,7 +83,7 @@ const IndexPage = ({ data, location }) => {
             >
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white">
                 <h1 className="text-white f3 uppercase sm:pb-2">Pocket</h1>
-                <p className="text-white w-2/3 py-10 sm:py-5 px-5 text-center b1">
+                <p className="text-white w-2/3 py-10 sm:px-0 sm:py-5 px-5 text-center b1">
                   → Winner of the 2019 Accenture Banking Revolution Hackathon.
                   <br />
                   → Pocket is an banking interface which allows users to take
@@ -120,7 +120,7 @@ const IndexPage = ({ data, location }) => {
                 <h1 className="text-white f3 uppercase sm:pb-2">
                   Puppy Love Pet Care
                 </h1>
-                <p className="text-white w-2/3 py-10 sm:py-5 px-5 text-center b1">
+                <p className="text-white w-2/3 py-10 sm:px-0 sm:py-5 px-5 text-center b1">
                   → Website design. <br />
                   → Full stack website developtment. <br />
                   → Google myBusiness consultation. <br />→ Built using HTML,
@@ -134,7 +134,7 @@ const IndexPage = ({ data, location }) => {
                 <h1 className="text-white f3 uppercase sm:pb-2">
                   Magic Strip LED Lights
                 </h1>
-                <p className="text-white w-2/3 py-10 sm:py-5 px-5 text-center b1">
+                <p className="text-white w-2/3 py-10 sm:px-0 sm:py-5 px-5 text-center b1">
                   → Magic Strip LED is a global e-commerce dropshipping store
                   specialising in quality strip led lights.
                   <br />→ Built using shopify CMS.
@@ -161,7 +161,7 @@ const IndexPage = ({ data, location }) => {
                 <h1 className="text-white f3 uppercase sm:pb-2">
                   goodXevening
                 </h1>
-                <p className="text-white w-2/3 py-10 sm:py-5 px-5 text-center b1">
+                <p className="text-white w-2/3 py-10 sm:px-0 sm:py-5 px-5 text-center b1">
                   → goodXEvening is a travel photography blog. <br />→ Images
                   hosted on online web application Tumblr.
                 </p>
