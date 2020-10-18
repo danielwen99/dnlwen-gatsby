@@ -169,9 +169,9 @@ const IndexPage = ({ data, location }) => {
               </Fade>
             </article>
 
-            <Fade>
-              <article className="w-screen h-screen flex sm:flex-col justify-evenly">
-                <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-r-black">
+            <article className="w-screen h-screen flex sm:flex-col justify-evenly">
+              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-r-black">
+                <Fade>
                   <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
                     Magic Strip LED Lights
                   </h1>
@@ -186,48 +186,49 @@ const IndexPage = ({ data, location }) => {
                       Built using shopify CMS.
                     </li>
                   </ul>
-                </div>
+                </Fade>
+              </div>
+
+              <Fade>
                 <div className="w-1/2 sm:w-full flex justify-center items-center">
                   <figure className="w-2/3 p-10 sm:p-2 sm:-mt-5">
                     <img src="/uploads/magicstripled.gif" alt="test"></img>
                   </figure>
                 </div>
-              </article>
-            </Fade>
+              </Fade>
+            </article>
 
-            <Fade>
-              <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
-                <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
-                  <Fade>
-                    <figure className="w-2/3  p-10 sm:p-2 sm:-mt-5">
-                      <Img
-                        fluid={frontmatter.gxeImage.childImageSharp.fluid}
-                        alt="test"
-                      ></Img>
-                    </figure>
-                  </Fade>
-                </div>
-
+            <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
+              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
                 <Fade>
-                  <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
-                    <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
-                      goodXevening
-                    </h1>
-
-                    <ul className="w-2/3 p-5 sm:w-full sm:px-4">
-                      <li className="text-white b1 border-b-white w-full py-2 px-1">
-                        GoodXEvening is an online memoir of travel photography.
-                      </li>
-
-                      <li className="text-white b1 border-b-white w-full py-2 px-1">
-                        All images are hosted on the online web application,
-                        Tumblr.
-                      </li>
-                    </ul>
-                  </div>
+                  <figure className="w-2/3  p-10 sm:p-2 sm:-mt-5">
+                    <Img
+                      fluid={frontmatter.gxeImage.childImageSharp.fluid}
+                      alt="test"
+                    ></Img>
+                  </figure>
                 </Fade>
-              </article>
-            </Fade>
+              </div>
+
+              <Fade>
+                <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
+                  <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
+                    goodXevening
+                  </h1>
+
+                  <ul className="w-2/3 p-5 sm:w-full sm:px-4">
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      GoodXEvening is an online memoir of travel photography.
+                    </li>
+
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      All images are hosted on the online web application,
+                      Tumblr.
+                    </li>
+                  </ul>
+                </div>
+              </Fade>
+            </article>
           </div>
         </section>
         <div className="h-24"></div>
