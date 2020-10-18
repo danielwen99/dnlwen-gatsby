@@ -90,7 +90,7 @@ const IndexPage = ({ data, location }) => {
               className="mt-10 w-screen h-screen flex sm:flex-col justify-evenly"
               id="projects"
             >
-              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-r-black">
+              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-black">
                 <Fade>
                   <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center mb-3">
                     Pocket
@@ -131,7 +131,7 @@ const IndexPage = ({ data, location }) => {
             </article>
 
             <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
-              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
+              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-black">
                 <Fade>
                   <figure className="w-2/3 p-10 sm:p-2 sm:-mt-5">
                     <Img
@@ -170,7 +170,7 @@ const IndexPage = ({ data, location }) => {
             </article>
 
             <article className="w-screen h-screen flex sm:flex-col justify-evenly">
-              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-r-black">
+              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-black">
                 <Fade>
                   <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
                     Magic Strip LED Lights
@@ -199,7 +199,7 @@ const IndexPage = ({ data, location }) => {
             </article>
 
             <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
-              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
+              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-black">
                 <Fade>
                   <figure className="w-2/3  p-10 sm:p-2 sm:-mt-5">
                     <Img
