@@ -45,7 +45,7 @@ const IndexPage = ({ data, location }) => {
         </section>
 
         <section className="w-screen h-screen" id="about">
-          <article className="h-full px-10 py-24 flex flex-col justify-center">
+          <article className="h-full px-10 sm:px-4 py-24 sm:py-20 flex flex-col justify-center">
             <h1 className="f2 text-white flex">
               Based in&nbsp;
               <Typewriter
