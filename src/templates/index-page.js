@@ -69,7 +69,9 @@ const IndexPage = ({ data, location }) => {
               type="button"
               className="text-white w-64 h-12 mt-16 border-white rounded-full"
             >
-              <a href="https://www.linkedin.com/in/dwen/">Let's chat 💸</a>
+              <a href="https://www.linkedin.com/in/dwen/" className="uppercase">
+                Learn more 😁
+              </a>
             </button>
           </article>
         </section>
@@ -93,8 +95,8 @@ const IndexPage = ({ data, location }) => {
                   </li>
 
                   <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Pocket is an banking interface which allows users to take
-                    control of their finances.
+                    Pocket is a banking interface which allows users to take
+                    full control of their finances.
                   </li>
 
                   <li className="text-white b1 border-b-white w-full py-2 px-1">
@@ -135,7 +137,7 @@ const IndexPage = ({ data, location }) => {
 
                 <ul className="w-2/3 p-5 sm:w-full sm:px-4">
                   <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Website design.
+                    Full Website re-design.
                   </li>
 
                   <li className="text-white b1 border-b-white w-full py-2 px-1">
@@ -143,7 +145,7 @@ const IndexPage = ({ data, location }) => {
                   </li>
 
                   <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Google myBusiness consultation.
+                    Google myBusiness consulation and configuration.
                   </li>
 
                   <li className="text-white b1 border-b-white w-full py-2 px-1">
@@ -194,7 +196,7 @@ const IndexPage = ({ data, location }) => {
 
                 <ul className="w-2/3 p-5 sm:w-full sm:px-4">
                   <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    goodXEvening is an online travel photography blog.
+                    GoodXEvening is an online memoir of travel photography.
                   </li>
 
                   <li className="text-white b1 border-b-white w-full py-2 px-1">
