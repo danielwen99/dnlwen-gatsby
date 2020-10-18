@@ -90,14 +90,14 @@ module.exports = {
     );
   },
   siteMetadata: {
-    title: `Gatsby Netlify`,
-    titleTemplate: `%s - Gatsby Netlify`,
-    description: `Gatsby // Netlify brochure template`,
+    title: `Daniel Wen Digital Portfolio`,
+    titleTemplate: `Daniel Wen Digital Portfolio`,
+    description: `Oh hey, nice of you to be checking out my portfolio..`,
     keywords: `change,these,to,something,else`,
     author: `danielcourtness@gmail.com`,
     image: `/images/share.svg`,
     fbAppId: ``,
-    siteUrl: `https://borkify.netlify.app`,
+    siteUrl: `https://dnlwen.com`,
     twitterUsername: `@twitter`
   },
   plugins: [
