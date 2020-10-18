@@ -46,7 +46,7 @@ const IndexPage = ({ data, location }) => {
         </section>
 
         <section className="w-screen h-screen" id="about">
-          <article className="h-full px-10 sm:px-6 py-24 sm:py-20 flex flex-col justify-center">
+          <article className="h-full px-10 sm:px-2 py-24 sm:py-20 flex flex-col justify-center">
             <h1 className="f2 text-white flex">
               Based in&nbsp;
               <Typewriter
@@ -84,7 +84,7 @@ const IndexPage = ({ data, location }) => {
               className="mt-10 w-screen h-screen flex sm:flex-col justify-evenly"
               id="projects"
             >
-              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white">
+              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-r-black">
                 <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center mb-3">
                   Pocket
                 </h1>
@@ -121,7 +121,7 @@ const IndexPage = ({ data, location }) => {
             </article>
 
             <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
-              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white">
+              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
                 <figure className="w-2/3 p-10 sm:p-2">
                   <Img
                     fluid={frontmatter.puppyloveImage.childImageSharp.fluid}
@@ -156,7 +156,7 @@ const IndexPage = ({ data, location }) => {
             </article>
 
             <article className="w-screen h-screen flex sm:flex-col justify-evenly">
-              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white">
+              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-r-black">
                 <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
                   Magic Strip LED Lights
                 </h1>
@@ -180,7 +180,7 @@ const IndexPage = ({ data, location }) => {
             </article>
 
             <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
-              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white">
+              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
                 <figure className="w-2/3  p-10 sm:p-2">
                   <Img
                     fluid={frontmatter.gxeImage.childImageSharp.fluid}
