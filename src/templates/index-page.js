@@ -63,7 +63,7 @@ const IndexPage = ({ data, location }) => {
               </h1>
 
               <h1 className="f2 text-white">
-                Daniel is a multidisciplinary s̶o̶f̶t̶w̶a̶r̶e̶ ̶e̶n̶g̶i̶n̶e̶e̶r specialising in
+                Dan is a multidisciplinary s̶o̶f̶t̶w̶a̶r̶e̶ ̶e̶n̶g̶i̶n̶e̶e̶r specialising in
                 front-end web developtment and online business strategy.
               </h1>
 
