@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 /* eslint-disable react/prop-types */
 // import { PropTypes } from "prop-types";
 
@@ -45,7 +46,7 @@ const IndexPage = ({ data, location }) => {
         </section>
 
         <section className="w-screen h-screen" id="about">
-          <article className="h-full px-10 sm:px-4 py-24 sm:py-20 flex flex-col justify-center">
+          <article className="h-full px-10 sm:px-6 py-24 sm:py-20 flex flex-col justify-center">
             <h1 className="f2 text-white flex">
               Based in&nbsp;
               <Typewriter
@@ -68,7 +69,7 @@ const IndexPage = ({ data, location }) => {
               type="button"
               className="text-white w-64 h-12 mt-16 border-white rounded-full"
             >
-              Let's chat 💸
+              <a href="https://www.linkedin.com/in/dwen/">Let's chat 💸</a>
             </button>
           </article>
         </section>
