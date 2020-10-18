@@ -28,7 +28,7 @@ const IndexPage = ({ data, location }) => {
 
       <Layout className="index-page w-full relative bg-black">
         <section className="w-screen h-screen" id="top">
-          <figure className="w-full h-screen absolute pt-10 mt-4 pb-8 px-8 z-0">
+          <figure className="w-full h-screen absolute pt-10 mt-4 pb-8 px-8 sm:px-0 z-0">
             <img
               className="w-full h-full z-0 object-cover animation-delay-5 animation-appear-slow"
               src="https://i.pinimg.com/originals/8a/45/dc/8a45dc879bff6e84980df3bad8d401f7.gif"
@@ -82,8 +82,8 @@ const IndexPage = ({ data, location }) => {
               id="projects"
             >
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white">
-                <h1 className="text-white f3 uppercase">Pocket</h1>
-                <p className="text-white w-2/3 py-10 px-5 text-center b1">
+                <h1 className="text-white f3 uppercase sm:pb-2">Pocket</h1>
+                <p className="text-white w-2/3 py-10 sm:py-5 px-5 text-center b1">
                   → Winner of the 2019 Accenture Banking Revolution Hackathon.
                   <br />
                   → Pocket is an banking interface which allows users to take
@@ -93,8 +93,9 @@ const IndexPage = ({ data, location }) => {
                 </p>
               </div>
               <div className="w-1/2 sm:w-full flex justify-center items-center">
-                <figure className="w-2/3 sm:w-1/2 p-10 sm:p-1">
+                <figure className="w-2/3 p-10 sm:p-2">
                   <video
+                    poster="/uploads/pocketposter.png"
                     src="/uploads/pocketVid.mp4"
                     controls
                     muted
@@ -107,7 +108,7 @@ const IndexPage = ({ data, location }) => {
 
             <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
               <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white">
-                <figure className="w-2/3 sm:w-1/2 p-10 sm:p-1">
+                <figure className="w-2/3 p-10 sm:p-2">
                   <Img
                     fluid={frontmatter.puppyloveImage.childImageSharp.fluid}
                     alt="test"
@@ -116,8 +117,10 @@ const IndexPage = ({ data, location }) => {
               </div>
 
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
-                <h1 className="text-white f3 uppercase">Puppy Love Pet Care</h1>
-                <p className="text-white w-2/3 py-10 px-5 text-center b1">
+                <h1 className="text-white f3 uppercase sm:pb-2">
+                  Puppy Love Pet Care
+                </h1>
+                <p className="text-white w-2/3 py-10 sm:py-5 px-5 text-center b1">
                   → Website design. <br />
                   → Full stack website developtment. <br />
                   → Google myBusiness consultation. <br />→ Built using HTML,
@@ -128,17 +131,17 @@ const IndexPage = ({ data, location }) => {
 
             <article className="w-screen h-screen flex sm:flex-col justify-evenly">
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white">
-                <h1 className="text-white f3 uppercase">
+                <h1 className="text-white f3 uppercase sm:pb-2">
                   Magic Strip LED Lights
                 </h1>
-                <p className="text-white w-2/3 py-10 px-5 text-center b1">
+                <p className="text-white w-2/3 py-10 sm:py-5 px-5 text-center b1">
                   → Magic Strip LED is a global e-commerce dropshipping store
                   specialising in quality strip led lights.
                   <br />→ Built using shopify CMS.
                 </p>
               </div>
               <div className="w-1/2 sm:w-full flex justify-center items-center">
-                <figure className="w-2/3 sm:w-1/2 p-10 sm:p-1">
+                <figure className="w-2/3 p-10 sm:p-2">
                   <img src="/uploads/magicstripled.gif" alt="test"></img>
                 </figure>
               </div>
@@ -146,7 +149,7 @@ const IndexPage = ({ data, location }) => {
 
             <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
               <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white">
-                <figure className="w-2/3 sm:w-1/2 p-10 sm:p-1">
+                <figure className="w-2/3  p-10 sm:p-2">
                   <Img
                     fluid={frontmatter.gxeImage.childImageSharp.fluid}
                     alt="test"
@@ -155,8 +158,10 @@ const IndexPage = ({ data, location }) => {
               </div>
 
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
-                <h1 className="text-white f3 uppercase">goodXevening</h1>
-                <p className="text-white w-2/3 py-10 px-5 text-center b1">
+                <h1 className="text-white f3 uppercase sm:pb-2">
+                  goodXevening
+                </h1>
+                <p className="text-white w-2/3 py-10 sm:py-5 px-5 text-center b1">
                   → goodXEvening is a travel photography blog. <br />→ Images
                   hosted on online web application Tumblr.
                 </p>
