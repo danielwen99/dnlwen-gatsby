@@ -6,6 +6,7 @@ import React, { useContext } from "react";
 import Img from "gatsby-image";
 import Typewriter from "typewriter-effect";
 import { graphql } from "gatsby";
+import Fade from "react-reveal/Fade";
 import { DocumentContext } from "~context/DocumentContext";
 import DummyImage from "~components/DummyImage";
 import Footer from "~components/Footer";
@@ -45,36 +46,41 @@ const IndexPage = ({ data, location }) => {
           </figure>
         </section>
 
-        <section className="w-screen h-screen" id="about">
-          <article className="h-full px-10 sm:px-2 py-24 sm:py-20 flex flex-col justify-center">
-            <h1 className="f2 text-white flex">
-              Based in&nbsp;
-              <Typewriter
-                options={{
-                  strings: [`Melbourne`, `the Internet`],
-                  autoStart: true,
-                  loop: true
-                }}
-              />
-              <br />
-              <br />
-            </h1>
+        <Fade left>
+          <section className="w-screen h-screen" id="about">
+            <article className="h-full px-10 sm:px-2 py-24 sm:py-20 flex flex-col justify-center">
+              <h1 className="f2 text-white flex">
+                Based in&nbsp;
+                <Typewriter
+                  options={{
+                    strings: [`Melbourne`, `the Internet`],
+                    autoStart: true,
+                    loop: true
+                  }}
+                />
+                <br />
+                <br />
+              </h1>
 
-            <h1 className="f2 text-white">
-              Daniel is a multidisciplinary s̶o̶f̶t̶w̶a̶r̶e̶ ̶e̶n̶g̶i̶n̶e̶e̶r specialising in
-              front-end web developtment and online business strategy.
-            </h1>
+              <h1 className="f2 text-white">
+                Daniel is a multidisciplinary s̶o̶f̶t̶w̶a̶r̶e̶ ̶e̶n̶g̶i̶n̶e̶e̶r specialising in
+                front-end web developtment and online business strategy.
+              </h1>
 
-            <button
-              type="button"
-              className="text-white w-64 h-12 mt-16 border-white rounded-full"
-            >
-              <a href="https://www.linkedin.com/in/dwen/" className="uppercase">
-                Learn more 😁
-              </a>
-            </button>
-          </article>
-        </section>
+              <button
+                type="button"
+                className="text-white w-64 h-12 mt-16 border-white rounded-full"
+              >
+                <a
+                  href="https://www.linkedin.com/in/dwen/"
+                  className="uppercase"
+                >
+                  Stalk me more 💃
+                </a>
+              </button>
+            </article>
+          </section>
+        </Fade>
 
         <section className="mt-16 w-screen">
           <div className="flex flex-col w-full justify-center items-center">
@@ -85,126 +91,143 @@ const IndexPage = ({ data, location }) => {
               id="projects"
             >
               <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-r-black">
-                <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center mb-3">
-                  Pocket
-                </h1>
+                <Fade>
+                  <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center mb-3">
+                    Pocket
+                  </h1>
 
-                <ul className="w-2/3 p-5 sm:w-full sm:px-4">
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Winner of the 2019 Accenture Banking Revolution Hackathon.
-                  </li>
+                  <ul className="w-2/3 p-5 sm:w-full sm:px-4">
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      Winner of the 2019 Accenture Banking Revolution Hackathon.
+                    </li>
 
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Pocket is a banking interface which allows users to take
-                    full control of their finances.
-                  </li>
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      Pocket is a banking interface which allows users to take
+                      full control of their finances.
+                    </li>
 
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Callaborators: Wil Johnston, Sebastien Bailouni, Jonathon
-                    Vrankul
-                  </li>
-                </ul>
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      Callaborators: Wil Johnston, Sebastien Bailouni, Jonathon
+                      Vrankul
+                    </li>
+                  </ul>
+                </Fade>
               </div>
 
-              <div className="w-1/2 sm:w-full flex justify-center items-center">
-                <figure className="w-2/3 p-10 sm:p-2">
-                  <video
-                    poster="/uploads/pocketposter.png"
-                    src="/uploads/pocketVid.mp4"
-                    controls
-                    muted
-                    loop
-                    alt="pocket video"
-                  ></video>
-                </figure>
-              </div>
+              <Fade>
+                <div className="w-1/2 sm:w-full flex justify-center items-center">
+                  <figure className="w-2/3 p-10 sm:p-2">
+                    <video
+                      poster="/uploads/pocketposter.png"
+                      src="/uploads/pocketVid.mp4"
+                      controls
+                      muted
+                      loop
+                      alt="pocket video"
+                    ></video>
+                  </figure>
+                </div>
+              </Fade>
             </article>
 
             <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
               <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
-                <figure className="w-2/3 p-10 sm:p-2">
-                  <Img
-                    fluid={frontmatter.puppyloveImage.childImageSharp.fluid}
-                    alt="test"
-                  ></Img>
-                </figure>
+                <Fade>
+                  <figure className="w-2/3 p-10 sm:p-2">
+                    <Img
+                      fluid={frontmatter.puppyloveImage.childImageSharp.fluid}
+                      alt="test"
+                    ></Img>
+                  </figure>
+                </Fade>
               </div>
 
-              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
-                <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
-                  Puppy Love Pet Care
-                </h1>
+              <Fade>
+                <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
+                  <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
+                    Puppy Love Pet Care
+                  </h1>
 
-                <ul className="w-2/3 p-5 sm:w-full sm:px-4">
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Full Website re-design.
-                  </li>
+                  <ul className="w-2/3 p-5 sm:w-full sm:px-4">
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      Full Website re-design.
+                    </li>
 
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Full stack website developtment.
-                  </li>
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      Full stack website developtment.
+                    </li>
 
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Google myBusiness consulation and configuration.
-                  </li>
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      Google myBusiness consulation and configuration.
+                    </li>
 
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Built using HTML, CSS, JS, Netlify.
-                  </li>
-                </ul>
-              </div>
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      Built using HTML, CSS, JS, Netlify.
+                    </li>
+                  </ul>
+                </div>
+              </Fade>
             </article>
 
-            <article className="w-screen h-screen flex sm:flex-col justify-evenly">
-              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-r-black">
-                <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
-                  Magic Strip LED Lights
-                </h1>
+            <Fade>
+              <article className="w-screen h-screen flex sm:flex-col justify-evenly">
+                <div className="w-1/2 sm:w-full flex flex-col items-center justify-center border-r-white sm:border-r-black">
+                  <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
+                    Magic Strip LED Lights
+                  </h1>
 
-                <ul className="w-2/3 p-5 sm:w-full sm:px-4">
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Magic Strip LED is a global e-commerce dropshipping store
-                    specialising in quality strip led lights.
-                  </li>
+                  <ul className="w-2/3 p-5 sm:w-full sm:px-4">
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      Magic Strip LED is a global e-commerce dropshipping store
+                      specialising in quality strip led lights.
+                    </li>
 
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    Built using shopify CMS.
-                  </li>
-                </ul>
-              </div>
-              <div className="w-1/2 sm:w-full flex justify-center items-center">
-                <figure className="w-2/3 p-10 sm:p-2">
-                  <img src="/uploads/magicstripled.gif" alt="test"></img>
-                </figure>
-              </div>
-            </article>
+                    <li className="text-white b1 border-b-white w-full py-2 px-1">
+                      Built using shopify CMS.
+                    </li>
+                  </ul>
+                </div>
+                <div className="w-1/2 sm:w-full flex justify-center items-center">
+                  <figure className="w-2/3 p-10 sm:p-2">
+                    <img src="/uploads/magicstripled.gif" alt="test"></img>
+                  </figure>
+                </div>
+              </article>
+            </Fade>
 
-            <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
-              <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
-                <figure className="w-2/3  p-10 sm:p-2">
-                  <Img
-                    fluid={frontmatter.gxeImage.childImageSharp.fluid}
-                    alt="test"
-                  ></Img>
-                </figure>
-              </div>
+            <Fade>
+              <article className="w-screen h-screen flex sm:flex-col-reverse justify-evenly">
+                <div className="w-1/2 sm:w-full flex justify-center items-center border-r-white sm:border-r-black">
+                  <Fade>
+                    <figure className="w-2/3  p-10 sm:p-2">
+                      <Img
+                        fluid={frontmatter.gxeImage.childImageSharp.fluid}
+                        alt="test"
+                      ></Img>
+                    </figure>
+                  </Fade>
+                </div>
 
-              <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
-                <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
-                  goodXevening
-                </h1>
+                <Fade>
+                  <div className="w-1/2 sm:w-full flex flex-col items-center justify-center">
+                    <h1 className="text-white f4 uppercase sm:pb-2 w-2/3 text-center">
+                      goodXevening
+                    </h1>
 
-                <ul className="w-2/3 p-5 sm:w-full sm:px-4">
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    GoodXEvening is an online memoir of travel photography.
-                  </li>
+                    <ul className="w-2/3 p-5 sm:w-full sm:px-4">
+                      <li className="text-white b1 border-b-white w-full py-2 px-1">
+                        GoodXEvening is an online memoir of travel photography.
+                      </li>
 
-                  <li className="text-white b1 border-b-white w-full py-2 px-1">
-                    All images are hosted on the online web application, Tumblr.
-                  </li>
-                </ul>
-              </div>
-            </article>
+                      <li className="text-white b1 border-b-white w-full py-2 px-1">
+                        All images are hosted on the online web application,
+                        Tumblr.
+                      </li>
+                    </ul>
+                  </div>
+                </Fade>
+              </article>
+            </Fade>
           </div>
         </section>
         <div className="h-24"></div>
