@@ -71,10 +71,7 @@ const IndexPage = ({ data, location }) => {
                 type="button"
                 className="text-white w-64 h-12 mt-16 border-white rounded-full"
               >
-                <a
-                  href="https://www.linkedin.com/in/dwen/"
-                  className="uppercase"
-                >
+                <a href="https://au.linkedin.com/in/dwen" className="uppercase">
                   Stalk me more 💃
                 </a>
               </button>
