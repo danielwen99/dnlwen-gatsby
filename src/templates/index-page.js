@@ -67,14 +67,14 @@ const IndexPage = ({ data, location }) => {
                 front-end web developtment and online business strategy.
               </h1>
 
-              <button
-                type="button"
-                className="text-white w-64 h-12 mt-16 border-white rounded-full"
-              >
-                <a href="https://au.linkedin.com/in/dwen" className="uppercase">
-                  Stalk me more 💃
-                </a>
-              </button>
+              <a href="https://au.linkedin.com/in/dwen">
+                <button
+                  type="button"
+                  className="text-white w-64 h-12 mt-16 border-white rounded-full"
+                >
+                  <p className="uppercase">Stalk me more 💃</p>
+                </button>
+              </a>
             </article>
           </section>
         </Fade>
