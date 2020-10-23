@@ -25,7 +25,7 @@ const Header = () => {
             type="button"
             className="block"
           >
-            <h2 className="f4 ">DNLWEN.</h2>
+            <h2 className="f4 ">DNLWEN ✌️+❤️</h2>
           </button>
 
           <div className="flex">
