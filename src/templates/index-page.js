@@ -74,7 +74,7 @@ const IndexPage = ({ data, location }) => {
 
         <section className="mt-16 w-screen">
           <div className="flex flex-col w-full justify-center items-center">
-            <h1 className="text-white text-5xl uppercase">Featured Projects</h1>
+            <h1 className="text-white text-4xl uppercase">Featured Projects</h1>
 
             <article
               className="mt-10 w-screen h-screen flex sm:flex-col justify-evenly"
