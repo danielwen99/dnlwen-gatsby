@@ -36,13 +36,6 @@ const IndexPage = ({ data, location }) => {
               src="https://i.pinimg.com/originals/8a/45/dc/8a45dc879bff6e84980df3bad8d401f7.gif"
               alt="egg flip"
             ></img>
-
-            <div className="bottom-0 -mb-2 z-0 absolute items-end">
-              {/* <h1 className="text-massive leading-none text-white z-50">
-                DNL <br />
-                WEN.
-              </h1> */}
-            </div>
           </figure>
         </section>
 
@@ -81,7 +74,7 @@ const IndexPage = ({ data, location }) => {
 
         <section className="mt-16 w-screen">
           <div className="flex flex-col w-full justify-center items-center">
-            <h1 className="text-white f4 uppercase"> Featured Projects</h1>
+            <h1 className="text-white text-5xl uppercase">Featured Projects</h1>
 
             <article
               className="mt-10 w-screen h-screen flex sm:flex-col justify-evenly"

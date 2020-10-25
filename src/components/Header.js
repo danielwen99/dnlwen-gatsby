@@ -18,8 +18,8 @@ const Header = () => {
         menuActive ? ` menu-active` : ``
       } transition-transform w-full fixed top-0 right-0 left-0 z-30 py-2 animation-delay-4 animation-appear-slow`}
     >
-      <nav className="grid text-white">
-        <div className="grid-end-12 flex items-end justify-between">
+      <nav className="px-10 sm:px-2 text-white">
+        <div className="flex items-end justify-between">
           <button
             onClick={() => scrollTo(`#top`)}
             type="button"
