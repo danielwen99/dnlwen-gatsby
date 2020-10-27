@@ -7,6 +7,7 @@ import Img from "gatsby-image";
 import Typewriter from "typewriter-effect";
 import { graphql } from "gatsby";
 import Fade from "react-reveal/Fade";
+import BackgroundSlider from "react-background-slider";
 import { DocumentContext } from "~context/DocumentContext";
 import DummyImage from "~components/DummyImage";
 import Footer from "~components/Footer";
@@ -30,12 +31,16 @@ const IndexPage = ({ data, location }) => {
 
       <Layout className="index-page w-full relative bg-black">
         <section className="w-screen h-screen" id="top">
-          <figure className="w-full h-screen absolute pt-10 mt-4 pb-8 px-8 sm:px-0 z-0">
-            <img
+          <figure className="w-full h-screen absolute mt-13 pb-8 px-8 sm:px-0 z-0">
+            <BackgroundSlider
               className="w-full h-full z-0 object-cover animation-delay-5 animation-appear-slow"
-              src="https://i.pinimg.com/originals/8a/45/dc/8a45dc879bff6e84980df3bad8d401f7.gif"
-              alt="egg flip"
-            ></img>
+              images={[
+                `https://i.pinimg.com/originals/8a/45/dc/8a45dc879bff6e84980df3bad8d401f7.gif`,
+                `https://i.pinimg.com/originals/8e/7f/c1/8e7fc1064c844d7290fe43763cb89ec1.gif `
+              ]}
+              duration={2}
+              transition={1}
+            />
           </figure>
         </section>
 
