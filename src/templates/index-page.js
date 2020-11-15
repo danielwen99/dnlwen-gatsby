@@ -61,9 +61,9 @@ const IndexPage = ({ data, location }) => {
               </h1>
 
               <h1 className="f2 text-white">
-                Dan is a multidisciplinary s̶o̶f̶t̶w̶a̶r̶e̶ ̶e̶n̶g̶i̶n̶e̶e̶r specialising in
-                front-end web developtment, data transformation and online
-                business strategy and intergration.
+                Dan is a multidisciplinary s̶o̶f̶t̶w̶a̶r̶e̶ ̶e̶n̶g̶i̶n̶e̶e̶r with a niche in
+                front-end web developtment, online business strategy and data
+                transformation.
               </h1>
 
               <a href="https://au.linkedin.com/in/dwen">
