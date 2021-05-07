@@ -60,12 +60,13 @@ const IndexPage = ({ data, location }) => {
                 <br />
               </h1>
 
-              <h1 className="f2 text-white">
-                Hi I'm Dan, I'm a software developer currently focused on data
-                analytics, data science, and ML. In the past I have worked with
-                various front end developtment projects, and online business'.
-                Below you can find some of my past projects.
-              </h1>
+              <h2 className="f2 text-white">
+                Hi I'm Dan and welcome to my portfolio. I'm a software developer
+                with a current focus on data analytics, data science, and ML.
+                Over the past few years I have worked in different fields which
+                include front end developtment, e-commerce, and online strategy
+                consulting.
+              </h2>
 
               <a href="https://au.linkedin.com/in/dwen">
                 <button
