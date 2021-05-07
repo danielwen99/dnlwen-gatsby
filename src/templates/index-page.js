@@ -61,7 +61,7 @@ const IndexPage = ({ data, location }) => {
               </h1>
 
               <h1 className="f2 text-white">
-                Oh hey there, I'm Dan 🙋‍♂️. <br></br> Welcome to my web
+                Oh hey there, I'm Dan. 🙋‍♂️ <br></br> Welcome to my web
                 development portfolio. Below you can find some of my favourite
                 past projects. Hope you enjoy.
               </h1>
