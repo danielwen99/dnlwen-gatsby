@@ -61,9 +61,10 @@ const IndexPage = ({ data, location }) => {
               </h1>
 
               <h1 className="f2 text-white">
-                Dan is a multidisciplinary s̶o̶f̶t̶w̶a̶r̶e̶ ̶e̶n̶g̶i̶n̶e̶e̶r specialising in
-                front-end web developtment, online strategy and data
-                transformation.
+                Hi I'm Dan, I'm a software developer currently focused on data
+                analytics, data science, and ML. In the past I have worked with
+                various front end developtment projects, and online business'.
+                Below you can find some of my past projects.
               </h1>
 
               <a href="https://au.linkedin.com/in/dwen">
