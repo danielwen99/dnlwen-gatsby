@@ -61,9 +61,9 @@ const IndexPage = ({ data, location }) => {
               </h1>
 
               <h1 className="f2 text-white">
-                Hey I'm Dan (I'm a software developer). Welcome to my portfolio.
+                Hey I'm Dan. Welcome to my software developtment portfolio.
                 Below you can find some of my favourite past projects. Hope you
-                enjoy. :~)
+                enjoy. 🤓
               </h1>
 
               <a href="https://au.linkedin.com/in/dwen">
